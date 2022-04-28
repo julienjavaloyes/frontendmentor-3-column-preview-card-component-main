@@ -1,0 +1,26 @@
+@use  '../0-abstracts/colors' as c;
+
+$fontDisplay: 'Big Shoulders Display', cursive;
+$fontDeca: 'Lexend Deca', sans-serif;
+
+body {
+    .title {
+        font-family: $fontDisplay ;
+        text-transform: uppercase;
+        color: white ;
+        font-size: 40px;
+    }
+    .desc {
+        font-family: $fontDeca;
+        color: c.$Transparentwhite-paragraphs;
+        line-height: 1.7em;
+    }
+    button {
+        font-family: $fontDeca;
+        color: #000; /* Fallback for older browsers */
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 15px;
+        font-weight: bold;
+        mix-blend-mode: screen;
+    }
+}

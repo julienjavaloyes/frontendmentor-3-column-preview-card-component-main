@@ -1,0 +1,14 @@
+@use "../0-abstracts/colors" as c;
+
+.card {
+    padding: 40px;
+}
+.card1 {
+    background-color: c.$Brightorange;
+}
+.card2 {
+    background-color:  c.$Darkcyan;
+}
+.card3 {
+    background-color:  c.$Verydarkcyan;
+}
