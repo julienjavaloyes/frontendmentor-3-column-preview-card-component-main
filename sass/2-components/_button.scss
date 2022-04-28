@@ -6,6 +6,11 @@ body {
         border-radius: 30px;
         background-color: c.$Verylightgray-backgroundheadingsbuttons;
         border: none;
-
+        &:hover {
+            background-color:transparent;
+            border-style: solid;
+            border-color: white;
+            color: white;
+        }
     }
 }

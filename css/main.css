@@ -63,6 +63,12 @@ body button {
   background-color: hsl(0deg, 0%, 95%);
   border: none;
 }
+body button:hover {
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  color: white;
+}
 
 .container {
   width: 330px;
